@@ -7,3 +7,15 @@
 ```
 I started this project with the goal of creating a pivilege escalation script that could have plugins for detecting, exploiting, and describing privilege vectors. As I learn, I will add what I learn as plugins to the script.
 
+# Build
+
+To build this project into a binary use pyinstaller and build it on your target OS.
+
+## Linux
+
+```
+# Install requirements
+pip3 install -r linux_requirements.txt
+# Run the pyinstaller build process
+
+```
